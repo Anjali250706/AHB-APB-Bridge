@@ -15,10 +15,14 @@ Designed and implemented an AMBA AHB-to-APB bridge in Verilog for protocol conve
 
 ## Project Structure
 
+```text
 AHB-APB-Bridge/
 ├── rtl/
+│   └── ahb_apb_bridge.v
 ├── tb/
+│   └── ahb_apb_tb.v
 └── README.md
+```
 
 ## Results
 Successfully simulated AHB read and write operations and verified protocol behavior using waveform analysis.
